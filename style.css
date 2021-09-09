@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    align-items: center;
+    margin: 5% 0;
+    font-family: Arial;
+    background-color: #FFF;
+}
+input {
+    padding: 10px;
+    font-size: 14px;
+    width: 500px;
+}
+
+    /*Adicionado classe pelo Js*/
+
+.azul {
+    background-color: royalblue;
+}
+.laranja {
+    background-color: #FF3000;
+}
+.amarelo {
+    background-color: #FFF300;
+}
+.preto {
+    background-color: #454545;
+    color: #FFF;
+}
+.oculto {
+    display: none;
+}
+.btn-area {
+    display: flex;
+    margin-top: 4%;
+}
+
+button {
+    margin: 0 15px;
+    padding: .3rem 1rem;
+    font-weight: bold;
+    color: #454545;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 0;
+    border-radius: .8rem;
+}
+
+button:first-child {
+    background-color: royalblue;
+    color: #FFF;
+}
+
+button:last-of-type {
+     /*In JS*/
+    background-color: darkred;
+    color: #FFF;
+}
+
+button:nth-child(2) {
+    background-color: #FF3000;
+    color: #FFF;
+}
+
+button:nth-child(3) {
+    background-color: #FFF300;
+    color: rgb(70, 66, 66);
+}
+
+button:nth-child(4) {
+    background-color: #454545;
+    color: #FFF;
+}
